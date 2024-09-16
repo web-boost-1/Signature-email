@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+p {
+  line-height:10px;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.container-principal {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.container-1b span img {
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.container-2 {
+    width: 100%;
+    height: 200px;
+    z-index: 999;
+    background-size: 100%;
+    background: url(https://i.ibb.co/ZGsrZfm/Capture-d-e-cran-2024-05-27-a-14-23-28.png) center;
+    
+    
+}
+.container-3b {
+  width:16%;
+  height:100px;
+  display:flex;
+  background-color:none;
+  justify-content:left;
+}
+.container-2 img {
+    width: 100%;
+    height: 200px;
+}
+
+.container-3 {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: ;
+}
+
+.container-3 img {
+    padding: 10px;
+}
+
+.container-1 {
+    height: 10px;
+    width: 15%;
+    background-color: red;
+    display: flex;
+}
+
+
+.container-1a {
+    padding: 0px 0px 0px 20px;
+    width: 35%;
+}
+
+.container-1b {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .container-2 {
+        display: none;
+    }
+    .container-1 {
+        width: 70%;
+        margin: 0px;
+        height: 200px;
+    }
+    .container-3 {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .container-2 {
+        width:100%;
+    }
+    .container-1 {
+        width: 80%;
+    }
+}
+/*
+@media screen and (max-width: 400px { 
+  .nomdemaclasse {
+    attribut:valeur;
+  }
+}
+
+
+*/
+
